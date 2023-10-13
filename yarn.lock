@@ -710,6 +710,14 @@
     ignore "^5.1.8"
     p-map "^4.0.0"
 
+"@types/hoist-non-react-statics@^3.3.1":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.3.tgz#8bb41d9a88164f82dd2745ff05e637e655f34d19"
+  integrity sha512-Wny3a2UXn5FEA1l7gc6BbpoV5mD1XijZqgkp4TRgDCDL5r3B5ieOFGUX5h3n78Tr1MEG7BfvoM8qeztdvNU0fw==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/json-schema@^7.0.9":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.12.tgz#d70faba7039d5fca54c83c7dbab41051d2b6f6cb"
@@ -1524,10 +1532,11 @@ foreground-child@^3.1.0:
     signal-exit "^4.0.1"
 
 formik@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/formik/-/formik-2.4.3.tgz#6020e85eb3e3e8415b3b19d6f4f65793ab754b24"
-  integrity sha512-2Dy79Szw3zlXmZiokUdKsn+n1ow4G8hRrC/n92cOWHNTWXCRpQXlyvz6HcjW7aSQZrldytvDOavYjhfmDnUq8Q==
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/formik/-/formik-2.4.5.tgz#f899b5b7a6f103a8fabb679823e8fafc7e0ee1b4"
+  integrity sha512-Gxlht0TD3vVdzMDHwkiNZqJ7Mvg77xQNfmBRrNtvzcHZs72TJppSTDKHpImCMJZwcWPBJ8jSQQ95GJzXFf1nAQ==
   dependencies:
+    "@types/hoist-non-react-statics" "^3.3.1"
     deepmerge "^2.1.1"
     hoist-non-react-statics "^3.3.0"
     lodash "^4.17.21"
@@ -2501,6 +2510,7 @@ string-argv@^0.3.1:
   integrity sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0, string-width@^4.2.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -2524,6 +2534,7 @@ string.fromcodepoint@^0.2.1:
   integrity sha512-n69H31OnxSGSZyZbgBlvYIXlrMhJQ0dQAX1js1QDhpaUH6zmU3QYlj07bCwCNlPOu3oRXIubGPl2gDGnHsiCqg==
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -2746,6 +2757,7 @@ which@^2.0.1:
     isexe "^2.0.0"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
